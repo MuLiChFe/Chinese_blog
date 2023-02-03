@@ -4,7 +4,7 @@ const BLOG = {
   BIO: 'Chinese Section', // 作者简介
   LINK: 'https://jnet-chinese.vercel.app/', // 网站地址
   KEYWORDS: '', // 网站关键词 英文逗号隔开
-  NOTION_PAGE_ID: '5239337dbef949e0bb9e574d09a03b7d', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
+  NOTION_PAGE_ID: '162b05d9c4384d3c8f245c1c207c0b18', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
   NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
   DEBUG: process.env.NEXT_PUBLIC_DEBUG || false, // 是否显示调试按钮
 
