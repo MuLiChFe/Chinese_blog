@@ -1,10 +1,10 @@
                                                                         // 注: process.env.XX是Vercel的环境变量，配置方式见：https://docs.tangly1024.com/zh/features/personality
 const BLOG = {
-  AUTHOR: '光遇-沐林', // 作者
-  BIO: '一个什么都努力去做的沐林！', // 作者简介
-  LINK: 'https://mulin.vercel.app/', // 网站地址
+  AUTHOR: 'Jnet', // 作者
+  BIO: 'Chinese Section', // 作者简介
+  LINK: 'https://jnet-chinese.vercel.app/', // 网站地址
   KEYWORDS: '', // 网站关键词 英文逗号隔开
-  NOTION_PAGE_ID: '5239337dbef949e0bb9e574d09a03b7d', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
+  NOTION_PAGE_ID: '162b05d9c4384d3c8f245c1c207c0b18', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
   NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
   DEBUG: process.env.NEXT_PUBLIC_DEBUG || false, // 是否显示调试按钮
 
@@ -128,7 +128,7 @@ const BLOG = {
 
   // 无关紧要的配置
   AVATAR: '/avatar.png', // 作者头像，被notion中的ICON覆盖。如果没有ICON则取public目录下的avatar.png
-  TITLE: process.env.NEXT_PUBLIC_TITLE || '光遇-沐林', // 站点标题 ，被notion中的页面标题覆盖
+  TITLE: process.env.NEXT_PUBLIC_TITLE || '', // 站点标题 ，被notion中的页面标题覆盖
   DESCRIPTION:
     process.env.NEXT_PUBLIC_DESCRIPTION || '', // 站点描述，被notion中的页面描述覆盖
 
